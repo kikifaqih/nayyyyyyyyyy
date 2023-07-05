@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:   url(background-image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Solway', serif;
+
+}
+
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    height: 50px;
+    color: transparent;
+}
+.hero{
+    height: 100vh;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.foto-profil{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: black solid 1.5px;
+}
+
+.judul{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    margin-top: 35px;
+    width: 400px;
+}
+.ucapan{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 359px;
+    background-color: #FFABAB;
+    margin-top: 40px;
+    border: solid #fff;
+    border-radius: 20px;
+}
+
+/* halaman 2*/
+.page2{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#instagram{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 100px;
+    width: 90%;
+    padding: 4.5px;
+    margin-bottom: 50px;
+    border: #FFFAD7 solid;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: .3s;
+}
+#twitter{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 100px;
+    width: 90%;
+    padding: 4.5px;
+    margin-bottom: 50px;
+    border: #FFFAD7 solid;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: .3s;
+}
+#tiktok{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 100px;
+    width: 90%;
+    padding: 4.5px;
+    margin-bottom: 50px;
+    border: #FFFAD7 solid;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: .3s;
+}
+#spotify{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 100px;
+    width: 90%;
+    padding: 4.5px;
+    margin-bottom: 50px;
+    border: #FFFAD7 solid;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#icon-instagram{
+    height: 50px;
+    width:50px;
+        position: relative;
+    right: 150px;
+}
+ h2{
+
+    position: relative;
+    right: 30px;
+
+}
+
+#icon-tiktok{
+    height: 50px;
+    width:50px;
+        position: relative;
+    right: 176px;
+}
+#icon-twitter{
+    height: 50px;
+    width:50px;
+        position: relative;
+    right: 160px;
+}
+#icon-spotify{
+    height: 50px;
+    width:50px;
+        position: relative;
+    right: 172px;
+}
+
+/*hover tombol*/
+#instagram:hover{
+    background-color: rgb(0, 0, 0, .5);
+    transition: .3s;
+}
+#twitter:hover{
+    background-color: rgb(0, 0, 0, .5);
+    transition: .3s;
+}
+#tiktok:hover{
+    background-color: rgb(0, 0, 0, .5);
+    transition: .3s;
+}
+#spotify:hover{
+    background-color: rgb(0, 0, 0, .5);
+    transition: .3s;
+}
+
+
+footer{
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    font-size: small;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 600px) {
+    main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    header{
+        height: 50px;
+        color: transparent;
+    }
+    .hero{
+        height: 100vh;
+        width: 600px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+    }
+    .foto-profil{
+        position: relative;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: black solid 1.5px;
+    }
+
+    .judul{
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+        margin-top: 35px;
+        width: 400px;
+    }
+    .ucapan{
+        display: flex;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        width: 359px;
+        background-color: #FFABAB;
+        margin-top: 40px;
+        border: solid #fff;
+        border-radius: 20px;
+    }
+
+    /* halaman 2*/
+    .page2{
+        height: 100vh;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    #instagram{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        height: 100px;
+        width: 90%;
+        padding: 4.5px;
+        margin-bottom: 50px;
+        border: #FFFAD7 solid;
+        border-radius: 13px;
+        cursor: pointer;
+        transition: .3s;
+    }
+    #twitter{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        height: 100px;
+        width: 90%;
+        padding: 4.5px;
+        margin-bottom: 50px;
+        border: #FFFAD7 solid;
+        border-radius: 13px;
+        cursor: pointer;
+        transition: .3s;
+    }
+    #tiktok{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        height: 100px;
+        width: 90%;
+        padding: 4.5px;
+        margin-bottom: 50px;
+        border: #FFFAD7 solid;
+        border-radius: 13px;
+        cursor: pointer;
+        transition: .3s;
+    }
+    #spotify{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        height: 100px;
+        width: 90%;
+        padding: 4.5px;
+        margin-bottom: 50px;
+        border: #FFFAD7 solid;
+        border-radius: 13px;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    #icon-instagram{
+        height: 50px;
+        width:50px;
+            position: relative;
+        right: 150px;
+    }
+    h2{
+
+        position: relative;
+        right: 30px;
+
+    }
+
+    #icon-tiktok{
+        height: 50px;
+        width:50px;
+            position: relative;
+        right: 176px;
+    }
+    #icon-twitter{
+        height: 50px;
+        width:50px;
+            position: relative;
+        right: 160px;
+    }
+    #icon-spotify{
+        height: 50px;
+        width:50px;
+            position: relative;
+        right: 172px;
+    }
+
+    /*hover tombol*/
+    #instagram:hover{
+        background-color: rgb(0, 0, 0, .5);
+        transition: .3s;
+    }
+    #twitter:hover{
+        background-color: rgb(0, 0, 0, .5);
+        transition: .3s;
+    }
+    #tiktok:hover{
+        background-color: rgb(0, 0, 0, .5);
+        transition: .3s;
+    }
+    #spotify:hover{
+        background-color: rgb(0, 0, 0, .5);
+        transition: .3s;
+    }
+
+}
