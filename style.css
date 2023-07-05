@@ -204,17 +204,14 @@ footer{
         color: transparent;
     }
     .hero{
-        height: 100vh;
-        width: 600px;
+        font-size: small;
         display: flex;
-        align-items: center;
-        flex-direction: column;
-        color: white;
+        justify-content: center;
     }
     .foto-profil{
         position: relative;
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
         border: black solid 1.5px;
     }
@@ -232,7 +229,7 @@ footer{
         justify-content: center;
         align-items: center;
         height: 100px;
-        width: 359px;
+        width: 250px;
         background-color: #FFABAB;
         margin-top: 40px;
         border: solid #fff;
@@ -258,7 +255,7 @@ footer{
         justify-content: center;
         background-color: transparent;
         height: 100px;
-        width: 90%;
+        width: 350px;
         padding: 4.5px;
         margin-bottom: 50px;
         border: #FFFAD7 solid;
@@ -273,7 +270,7 @@ footer{
         justify-content: center;
         background-color: transparent;
         height: 100px;
-        width: 90%;
+        width: 350px;
         padding: 4.5px;
         margin-bottom: 50px;
         border: #FFFAD7 solid;
@@ -288,7 +285,7 @@ footer{
         justify-content: center;
         background-color: transparent;
         height: 100px;
-        width: 90%;
+        width: 350px;
         padding: 4.5px;
         margin-bottom: 50px;
         border: #FFFAD7 solid;
@@ -303,7 +300,7 @@ footer{
         justify-content: center;
         background-color: transparent;
         height: 100px;
-        width: 90%;
+        width: 350px;
         padding: 4.5px;
         margin-bottom: 50px;
         border: #FFFAD7 solid;
@@ -313,35 +310,35 @@ footer{
     }
 
     #icon-instagram{
-        height: 50px;
-        width:50px;
+        height: 42px;
+        width:42px;
             position: relative;
-        right: 150px;
+        right: 50px;
     }
     h2{
 
         position: relative;
-        right: 30px;
+        right: 3px;
 
     }
 
     #icon-tiktok{
-        height: 50px;
-        width:50px;
+        height: 42px;
+        width:42px;
             position: relative;
-        right: 176px;
+        right: 50px;
     }
     #icon-twitter{
-        height: 50px;
-        width:50px;
+        height: 42px;
+        width:42px;
             position: relative;
-        right: 160px;
+        right: 50px;
     }
     #icon-spotify{
-        height: 50px;
-        width:50px;
+        height: 42px;
+        width:42px;
             position: relative;
-        right: 172px;
+        right: 50px;
     }
 
     /*hover tombol*/
@@ -360,6 +357,10 @@ footer{
     #spotify:hover{
         background-color: rgb(0, 0, 0, .5);
         transition: .3s;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
     }
 
 }
